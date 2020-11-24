@@ -8,4 +8,11 @@
     <string name="dob">DOB</string>
     <string name="register">REGISTER</string>
     <string name="thisishp">THIS IS HOME PAGE</string>
+    <string name="title1">SEARCH YOUR MEMBERS HERE</string>
+    <string name="searchpage">SEARCH PAGE</string>
+    <string name="searchuser">Search Name</string>
+    <string name="fname">First Name</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
 </resources>

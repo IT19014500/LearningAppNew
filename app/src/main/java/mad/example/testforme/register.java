@@ -13,7 +13,7 @@ import Database1.DBHandlerClass;
 
 public class register extends AppCompatActivity {
 
-    Button reg;
+    Button reg,update;
     EditText uname,pwd,dob;
 
     @Override
@@ -22,9 +22,10 @@ public class register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         reg = findViewById(R.id.button2);
+        update = findViewById(R.id.button3);
         uname = findViewById(R.id.editTextTextPersonName);
-        pwd = findViewById(R.id.editTextDate);
-        dob = findViewById(R.id.editTextTextPassword2);
+        dob = findViewById(R.id.editTextDate);
+        pwd = findViewById(R.id.editTextTextPassword2);
 
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +41,6 @@ public class register extends AppCompatActivity {
                 dob.setText(null);
             }
         });
+
     }
 }
